@@ -29,7 +29,7 @@ Each CT volume consists of 159 to 330 slices of 512 x 512 pixels, with an in-pla
 A senior oncologist (with 7 years of experience) uses ITK-SNAP to delineate all organs slice-by-slice in axial view. After that, an expert in oncology (more than 20 years of experience) checks and revises these annotations carefully and discusses them in cases of disagreement to produce consensus annotations and further ensure the annotation quality. Finally, these consensus labels are released and used for methods or clinical application development and evaluation. Note that all annotations and consensus discussions obey the radiation therapy delineation guideline published by Radiation Therapy Oncology Group (RTOG).
 
 <div align="center">
-    <a href="https://"><img width="800px" height="auto" src="(https://github.com/Luoxd1996/dataset/blob/main/figures/annotation_differ.png)"></a>
+    <a href="https://"><img width="800px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/annotation_differ.png"></a>
 </div>
 
 
