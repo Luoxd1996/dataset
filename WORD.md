@@ -31,6 +31,28 @@ A senior oncologist (with 7 years of experience) uses ITK-SNAP to delineate all 
     <a href="https://"><img width="800px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/annotation_differ.png"></a>
 </div>
 
+### Results
+
+#### Supervised Learning Baseline
+
+In the experiment, we investigated several methods' performance on the WORD dataset.
+
+The results are shown as below:
+
+<!-- Insert a pipeline of your algorithm here if got one -->
+<div align="center">
+    <a href="https://"><img width="600px" height="auto" src=""></a>
+</div>
+
+#### Transfer Learning Baseline
+
+We run the transfer learning experiments using the pre-trained nnUNetV2 to other abdominal organ segmentation datasets.
+
+<!-- Insert a pipeline of your algorithm here if got one -->
+<div align="center">
+    <a href="https://"><img width="600px" height="auto" src=""></a>
+</div>
+
 
 ## 🙌 Download Link
 
