@@ -41,7 +41,7 @@ The results are shown as below:
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="600px" height="auto" src=""></a>
+    <a href="https://"><img width="600px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/baseline_results.png"></a>
 </div>
 
 #### Transfer Learning Baseline
@@ -50,7 +50,7 @@ We run the transfer learning experiments using the pre-trained nnUNetV2 to other
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="600px" height="auto" src=""></a>
+    <a href="https://"><img width="600px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/transfer_results.png"></a>
 </div>
 
 
