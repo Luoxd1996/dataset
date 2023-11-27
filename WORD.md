@@ -5,7 +5,7 @@ Whole abdominal organ segmentation is important in diagnosing abdomen lesions, r
 
 <!-- Insert a pipeline of your algorithm here if got one -->
 <div align="center">
-    <a href="https://"><img width="800px" height="auto" src="https://raw.githubusercontent.com/OpenGVLab/SAM-Med2D/main/assets/cover_SA-Med2D-20M.png"></a>
+    <a href="https://"><img width="800px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/word.png"></a>
 </div>
 
 ## ✨ Overview
@@ -19,13 +19,17 @@ duce the labeling cost.
 The 150 CT scans in the WORD dataset were collected from 150 patients before the radiation therapy in a single center. All of them are scanned by a SIEMENS CT scanner. The clinical characteristics of the WORD dataset are listed below.
 
 <div align="center">
-    <a href="https://"><img width="800px" height="auto" src="https://github.com/openmedlab/dataset/blob/main/figures/sam2d_figure4.png"></a>
+    <a href="https://"><img width="800px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/clinical_info.png"></a>
 </div>
 
 Each CT volume consists of 159 to 330 slices of 512 x 512 pixels, with an in-plane resolution of 0.976 mm x 0.976 mm and slice spacing of 2.5 mm to 3.0 mm, indicating that the WORD dataset is a very high-resolution dataset. All scans of WORD dataset are exhaustively annotated with 16 anatomical organs, including the liver, spleen, kidney (L), kidney (R), stomach, gallbladder, esophagus, duodenum, colon, intestine, adrenal, rectum, bladder, head of the femur (L) and head of the femur (R). An example of image and annotation from the WORD dataset is shown in Figure~\ref{fig:show_data}. All images were anonymized and approved by the ethics committee to protect privacy where all clinical treatment details have been deleted. We randomly split WORD dataset into three parts: 100 scans (20115 slices) for training, 20 scans (4103 slices) for validation, and 30 scans (6277 slices) for testing. The following picture shows the volume distributions of all annotated organs. It shows that the extremely unbalanced distribution among large and small organs may bring some challenges to the segmentation task. At the same time, we further selected and annotated 20 CT scans from  LiTS as an external evaluation set. These scans cover the whole abdominal region, each with 16 organ annotations.
-
+<div align="center">
+    <a href="https://"><img width="800px" height="auto" src="https://github.com/Luoxd1996/dataset/blob/main/figures/size_dis.png"></a>
+</div>
 A senior oncologist (with 7 years of experience) uses ITK-SNAP to delineate all organs slice-by-slice in axial view. After that, an expert in oncology (more than 20 years of experience) checks and revises these annotations carefully and discusses them in cases of disagreement to produce consensus annotations and further ensure the annotation quality. Finally, these consensus labels are released and used for methods or clinical application development and evaluation. Note that all annotations and consensus discussions obey the radiation therapy delineation guideline published by Radiation Therapy Oncology Group (RTOG).
-
+<div align="center">
+    <a href="https://"><img width="800px" height="auto" src="[https://github.com/Luoxd1996/dataset/blob/main/figures/size_dis.png](https://github.com/Luoxd1996/dataset/blob/main/figures/annotation_differ.png)"></a>
+</div>
 ## 🙌 Download Link
 
 - The WORD dataset can be downloaded from [here](https://github.com/HiLab-git/WORD).
